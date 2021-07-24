@@ -1,4 +1,4 @@
-# Bluilding-SLAM-map-with-TURTLEBOT3
+# Building-SLAM-map-with-TURTLEBOT3
 ### SLAM (Simultaneous Localization and Mapping) is one of the most useful nodes in ROS, where it uses the robot's sensors to explore and draw a map of the surroundings. We can use SLAM approach with a variety of robots, in this repository I used turtlebot burger.
 #### First, I installed the dependencies, turtlebot packages, gazebo and SLAM simulation packages by following [these instructions](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/#overview).
 
