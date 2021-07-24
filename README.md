@@ -9,27 +9,27 @@
 $ Roscore
 ```
 
-Launching gazebo In another terminal:
+#### Launching gazebo In another terminal:
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 
-Openning another terminal so I can use SLAM and see the burgerbot trying to discover the environment:
+#### Openning another terminal so I can use SLAM and see the burgerbot trying to discover the environment:
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 
 
-Now I can control the robot's movements using keyboard:
+#### Now I can control the robot's movements using keyboard:
 ```
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 ```
 
-the resulting map would be like this:
+#### the resulting map would be like this:
 
 
 
@@ -37,7 +37,7 @@ the resulting map would be like this:
 
 
 
-I saved the map by running this command:
+#### I saved the map by running this command:
 ```
 $ rosrun map_server map_saver -f /tmp/my_map`
 
